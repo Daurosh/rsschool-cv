@@ -1,0 +1,31 @@
+@media print {
+  .site-nav,
+  .copy-btn {
+    display: none;
+  }
+
+  body {
+    background: #FFFFFF;
+    color: #000000;
+  }
+
+  .site-header,
+  .site-footer {
+    background: none;
+    color: #000000;
+  }
+
+  a {
+    color: #000000;
+    text-decoration: underline;
+  }
+
+  .section {
+    border-bottom: none;
+    padding: 16px 0;
+  }
+
+  .job {
+    break-inside: avoid;
+  }
+}
